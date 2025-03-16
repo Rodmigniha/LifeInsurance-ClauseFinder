@@ -1,0 +1,13 @@
+transformers
+torch
+pandas
+scikit-learn
+numpy
+datasets
+openpyxl
+pymupdf
+re
+logging
+streamlit
+nltk
+
