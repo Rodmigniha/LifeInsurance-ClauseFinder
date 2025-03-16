@@ -24,17 +24,19 @@
 
 ## Comment Utiliser l'Application
 
-1. **Téléverser un PDF** :
+1. Page d'accueil : Découvrez les fonctionnalités du chatbot et choisissez un mode dans la barre latérale.
+![Dashboard boxplot](data/Capture-acceuil.PNG)
+2. **Téléverser un PDF** :
    - Accédez à la page **Extraction de Clauses**.
 ![Dashboard boxplot](data/Capture-extr1.PNG)
 
    - Téléversez un fichier PDF contenant les conditions générales de votre contrat d'assurance vie.
 
-2. **Analyse Automatique** :
+3. **Analyse Automatique** :
    - L'application extrait le texte du PDF et identifie les clauses importantes.
 ![Dashboard boxplot](data/Capture-extr2.PNG)
 
-3. **Résultats** :
+4. **Résultats** :
    - Les clauses importantes sont affichées avec un style clair et lisible.
 ![Dashboard boxplot](data/Capture-extr3.PNG)
 ---
@@ -67,10 +69,6 @@ python fine_tune.py
 streamlit run main.py
 ```
 L'application sera accessible via `http://localhost:8501/`.
-
-1. Page d'accueil : Découvrez les fonctionnalités du chatbot et choisissez un mode dans la barre latérale.
-![Dashboard boxplot](data/Capture-acceuil.PNG)
-2. Mode extraction de clauses: Téléversez un fichier PDF contenant les conditions générales de votre contrat et l'application analysera le document et affichera les clauses importantes.
 
 ## Déploiement
 L'application peut être déployée sur **Hugging Face Spaces**, **Google Cloud Run**, ou toute autre plateforme supportant **Streamlit**.
